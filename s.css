@@ -68,22 +68,26 @@ footer {
 }
 
 @media screen and (max-width: 768px){
+  body {
+    width: 100%;
+  }
   main {
     display: block;
     margin: 0 auto;
   }
   header {
     height: 50px;
-  }
-
-  .step-box {
-    margin-top: 20px;
     margin-bottom: 50px;
   }
+  .step-box {
+    width: 90%;
+    margin: 0 5%;
+    margin-bottom: 20px;
+  }
 
-  .step-box::nth-child(1) {
-  margin-top: 50px;
-  margin-bottom: 20px;
+  footer {
+    height: 50px;
+    margin-top: 50px;
+  }
 
-}
 }
